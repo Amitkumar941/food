@@ -1,0 +1,119 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+}
+.logo{
+    width: 200px;
+}
+.nav-items > ul{
+    font-size: 24;
+    display: flex;
+    list-style-type: none;
+}
+.nav-items > ul > li{
+    padding: 20px;
+}
+.nav-link {
+    text-decoration: none;
+    color: black;
+}
+.search{
+    padding: 10px;
+    display: flex;
+}
+.card-link {
+    text-decoration: none;
+    color: black;
+}
+.res-card{
+    width: 300px;
+    height: 550px;
+    padding: 5px;
+    border-radius: 4%;
+    text-align: center;
+    background-color:rgb(253, 242, 226);
+}
+.res-card:hover{
+    border: 1px solid black;
+}
+.res-card > img {
+    width:100%;
+    height:60%;
+    border-radius: 4%;
+    object-fit:cover;
+}
+.res-cards-list{
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+.res-cards-list > li {
+    padding: 10;
+}
+.cuisines{
+    overflow: hidden;
+}
+.shimmer-container{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+}
+.shimmer{
+    width: 220px;
+    height: 350px;
+    margin: 20px;
+    border-radius: 4%;
+    background-color:#f0f0f0;
+}
+.login{
+    padding: 0 30px;
+}
+.login-btn{
+    border-radius: 5px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.filters{
+    padding: 0 20px;
+}
+.restaurant-menu{
+    margin: 2% 20%;
+}
+.go-back{
+    margin-bottom: 10px;
+}
+.go-back > button {
+    font-size: 25px;
+}
+.menu-header{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.opened {
+    color: green;
+}
+.closed {
+    color: red;
+}
+.menu-image{
+    width: 22%;
+    /* height: auto; */
+    border-radius: 10px;
+}
+.table{
+    width: 100%;
+}
+.table > td, th, tr {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+.user-card {
+    display: inline-block;
+    width: 600px;
+    margin: 5%;
+    border: 1px solid black;
+    padding: 1%;
+}
